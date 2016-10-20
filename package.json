@@ -1,0 +1,32 @@
+{
+  "name": "TeeTeePokedex",
+  "version": "1.0.0",
+  "description": "Front techs homework #3",
+  "main": "index.html",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --display-error-details",
+    "start": "./node_modules/.bin/webpack-dev-server --content-base dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bamboojfc/BambooPokedex.git"
+  },
+  "author": "Tanawat Tassana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bamboojfc/BambooPokedex/issues"
+  },
+  "homepage": "https://github.com/bamboojfc/BambooPokedex#readme",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "http-server": "^0.9.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
